@@ -47,11 +47,7 @@ h1 {
     margin-top: -390px;
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
-}
-
-.gui {
-  display: block;
-  transition: transform .4s;   /* smoother zoom */
+    transition: transform .4s;   /* smoother zoom */
 }
 
 .gui:hover{
