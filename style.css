@@ -203,6 +203,7 @@ h1 {
 
 @media screen and (max-width: 570px){
     .gui{
+        width: 80%;
         margin-top: 0px;
         margin-left: -280px;
         transform: scalex(0.4) scaley(0.4);
