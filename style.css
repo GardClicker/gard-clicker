@@ -203,9 +203,10 @@ h1 {
 
 @media screen and (max-width: 570px){
     .gui{
-        margin-top: 0px;
-        margin-left: -280px;
-        transform: scalex(0.4) scaley(0.4);
+        transform: scale(1) translateY(50%);
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
         display: block;
         filter: drop-shadow(0px 0px 0px transparent);
     }
