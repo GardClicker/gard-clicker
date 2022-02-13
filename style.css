@@ -41,8 +41,6 @@ h1 {
 }
 
 .gui{
-    width: 80%;
-    margin: 0 auto;
     margin-left: 560px;
     margin-top: -390px;
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
@@ -52,7 +50,6 @@ h1 {
 
 .gui:hover{
   transform: scale(.7);
-  transform-origin: 50% 50%;
 }
 
 .content{
