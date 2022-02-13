@@ -190,6 +190,9 @@ h1 {
         display: block;
         filter: drop-shadow(0px 0px 0px transparent);
     }
+    .gui:hover{
+        transform: scale(.6);
+    }
 }
 
 @media screen and (max-width: 596px){
@@ -203,14 +206,17 @@ h1 {
 
 @media screen and (max-width: 570px){
     .gui{
-        width: 80%;
-        margin-top: 0px;
-        margin-left: -280px;
-        transform: scalex(0.4) scaley(0.4);
+        transform: scale(1) translateY(50%);
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
         display: block;
         filter: drop-shadow(0px 0px 0px transparent);
     }
+    .gui:hover{
+        transform: scale(1);
+    }
     .section{
-        margin-top: 100px;
+        margin-top: 130px;
     }
 }
