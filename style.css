@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0D0D12;
+    color: #fff;
+}
+
+h1 {
+    position:relative;
+    z-index: 500;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #0D0D12;
+  background-image: url('');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+#particles-js canvas{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -999
+}
+
+.navbar{
+    width: 80%;
+    height: 6%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.gui{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 560px;
+    margin-top: -390px;
+    transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
+.gui {
+  display: block;
+  transition: transform .4s;   /* smoother zoom */
+}
+
+.gui:hover{
+  transform: scale(.7);
+  transform-origin: 50% 50%;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.discord-btn{
+    width: 170px;
+    height: 60px;
+    color: #0C0F21;
+    background: #3434FF;
+    border: none;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px black;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.discord-btn:hover {
+   background: rgb(27, 40, 255);
+   border: 1px solid rgb(27, 40, 255);
+   font-size: 20px;
+   box-shadow:
+   0 0 5px rgb(27, 40, 255),
+   0 0 10px rgb(27, 40, 255),
+   0 0 20px rgb(27, 40, 255);
+   transition: 0.4s;
+   cursor: pointer;
+}
+
+
+.section{
+    padding-bottom: 80px;
+    margin-top: 350px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.faq{
+    background: rgb(16, 16, 22);
+    color: rgb(216, 216, 216);
+    border: 1px solid rgb(16, 16, 22);
+    border-radius: 1px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
+.faq:hover{
+    cursor: pointer;
+}
+
+.faqquestion{
+    margin-left: 20px;
+}
+
+.plusicon{
+    height: 20px;
+    float: right;
+    margin-top: -42px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.faqanswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease;
+    margin-left: 15px;
+}
+
+.faqanswer p{
+    margin-left: 20px;
+    margin-top: -34px;
+}
+
+.faqtitle{
+    text-align: center;
+}
+
+.thing{
+    height: 40px;
+    width: 5px;
+    background: rgb(27, 40, 255);
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.faq.active .faqanswer{
+    transition: 1s ease;
+    max-height: 300px;
+}
+
+.faq.active .plusicon{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transition: 0.5s;
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1618px) {
+    .gui{
+        margin-left: 400px;
+        margin-top: -370px;
+        transform: scalex(0.7) scaley(0.7) perspective(500px) rotateY(-10deg);
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+}
+
+@media screen and (min-width: 1183px) and (max-width:1366px){
+    .gui{
+        margin-left: 350px;
+        margin-top: -390px;
+        transform: scalex(0.5) scaley(0.5) perspective(500px) rotateY(-10deg);
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1184px){
+    .gui{
+        margin-top: 0px;
+        margin-left: -200px;
+        transform: scalex(0.6) scaley(0.6);
+        display: block;
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+}
+
+@media screen and (max-width: 596px){
+    .thing{
+        visibility: hidden;
+    }
+    .faqanswer{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .gui{
+        margin-top: 0px;
+        margin-left: -280px;
+        transform: scalex(0.4) scaley(0.4);
+        display: block;
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+    .section{
+        margin-top: 100px;
+    }
+}
