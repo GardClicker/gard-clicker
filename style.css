@@ -97,7 +97,7 @@ h1 {
 
 .section{
     padding-bottom: 80px;
-    margin-top: 350px;
+    margin-top: 320px;
     width: 70%;
     position: absolute;
     left: 50%;
@@ -162,6 +162,60 @@ h1 {
     -webkit-transform: rotate(-45deg);
     transition: 0.5s;
 }
+
+.why{
+    margin-top: 900px;
+}
+
+.why h1{
+    text-align: center;
+}
+
+.box{
+    width: 20%;
+    padding: 150px;
+    background: rgb(16, 16, 22);
+    display: inline-flex;
+    margin-left: 180px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+    margin-top: 40px;
+}
+
+.fa-dollar-sign, .fa-arrow-pointer, .fa-comment-dots{
+    margin-top: -120px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 13px 15px;
+    background: #3434FF;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
+.somerandomnamecuzihavenoideahowtonameit{
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+    margin-top: -65px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bottomtext{
+    text-align: center;
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+/* footer{
+    margin-top: 50px;
+    display: block;
+} */
 
 
 @media screen and (min-width: 1367px) and (max-width: 1618px) {
