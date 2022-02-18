@@ -222,10 +222,13 @@ h1 {
     width: 80%;
 }
 
-/* footer{
-    margin-top: 50px;
+footer{
+    margin-top: 150px;
     display: block;
-} */
+    text-align: center;
+    height: 40px;
+    width: 100%;
+} 
 
 
 @media screen and (min-width: 1367px) and (max-width: 1618px) {
