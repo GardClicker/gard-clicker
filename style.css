@@ -399,4 +399,7 @@ footer p{
     .changelogcointainer{
         width: 90%;
     }
+    .changelogtext{
+        font-size: small;
+    }
 }
