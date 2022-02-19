@@ -15,6 +15,11 @@ h1 {
     z-index: 500;
 }
 
+a, a:active, a:focus{
+    color: #fff !important;
+    text-decoration: none;
+}
+
 #particles-js{
   width: 100%;
   height: 100%;
@@ -40,9 +45,22 @@ h1 {
     margin-top: 70px;
 }
 
+.changelog{
+    float: right;
+    margin-right: 80px;
+    margin-top: -1px;
+    font-size: 21px;
+    transition: 0.3s;
+}
+
+.changelog:hover{
+    color: #969696 !important;
+    transition: 0.3s;
+}
+
 .gui{
     margin-left: 560px;
-    margin-top: -390px;
+    margin-top: -360px;
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
     transition: transform .4s;   /* smoother zoom */
@@ -234,6 +252,86 @@ footer p{
     display: inline;
 }
 
+.changelogcointainer{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.changelogtitle{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.changelogtime{
+    padding: 10px;
+    width: 141px;
+    font-size: 14px;
+    background: #3434FF;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
+.changelognew{
+    margin-top: 15px;
+    width: 100%;
+    height: 60px;
+    background: #101016;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.418));
+    border: 0px solid transparent;
+    border-radius: 6px;
+}
+
+.changelogadded, .changelogimproved, .changelogfixed, .changelogdeleted{
+    width: min-content;
+    height: min-content;
+    font-size: 19px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    margin-left: 20px;
+    transform: translateY(-20%);
+    display: inline-flex;
+}
+
+.changelogadded{
+    background: #14b106;
+    padding: 4px 12px;
+}
+
+.changelogimproved{
+    background: #4806b1;
+    padding: 4px 16px;
+}
+
+.changelogfixed{
+    background: #3434FF;
+    padding: 4px 13px;
+}
+
+.changelogdeleted{
+    background: #ff3434;
+    padding: 4px 12px;
+}
+
+.changelogtext{
+    display: inline-flex;
+    margin-left: 10px;
+    transform: translateY(-31%);
+}
+
+.changeloglegend{
+    text-align: center;
+}
+
+.legend{
+    display: inline-flex;
+    margin-left: 10px;
+    transform: translateY(-30%);
+}
+
 @media screen and (min-width: 1367px) and (max-width: 1618px) {
     .gui{
         margin-left: 400px;
@@ -261,6 +359,9 @@ footer p{
         filter: drop-shadow(0px 0px 0px transparent);
     }
     .box{
+        width: 80%;
+    }
+    .changelogcointainer{
         width: 80%;
     }
 }
@@ -291,5 +392,11 @@ footer p{
     }
     .section{
         margin-top: 170px;
+    }
+    .changelog{
+        margin-right: 0px;
+    }
+    .changelogcointainer{
+        width: 90%;
     }
 }
