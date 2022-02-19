@@ -63,11 +63,7 @@ a, a:active, a:focus{
     margin-top: -360px;
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
-    transition: transform .4s;   /* smoother zoom */
-}
-
-.gui:hover{
-  transform: scale(.7);
+    transition: transform .4s;
 }
 
 .content{
@@ -203,13 +199,6 @@ a, a:active, a:focus{
     transition: 0.3s;
 }
 
-.box:hover{
-    font-size: 18px;
-    box-shadow:
-    0 0 5px #3434FF,
-    0 0 10px #3434FF,
-    0 0 20px #3434FF;
-}
 
 .fa-dollar-sign, .fa-arrow-pointer, .fa-comment-dots, .fa-server{
     margin-top: -120px;
@@ -386,9 +375,6 @@ footer p{
         width: 100%;
         display: block;
         filter: drop-shadow(0px 0px 0px transparent);
-    }
-    .gui:hover{
-        transform: scale(1) translateY(50%);
     }
     .section{
         margin-top: 170px;
