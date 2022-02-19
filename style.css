@@ -401,5 +401,7 @@ footer p{
     }
     .changelogtext{
         font-size: small;
+        margin-left: 5px;
+        transform: translateY(-50%);
     }
 }
