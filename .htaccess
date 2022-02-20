@@ -6,4 +6,3 @@ Deny from all
 
 RewriteEngine on
 RewriteRule changelog changelog.html
-RewriteRule home index.html
