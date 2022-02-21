@@ -111,7 +111,7 @@ a, a:active, a:focus{
 
 .section{
     padding-bottom: 80px;
-    margin-top: 320px;
+    margin-top: 250px;
     width: 70%;
     position: absolute;
     left: 50%;
@@ -126,7 +126,7 @@ a, a:active, a:focus{
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
 }
 
-.faq:hover{
+.faqquestion:hover{
     cursor: pointer;
 }
 
@@ -178,7 +178,7 @@ a, a:active, a:focus{
 }
 
 .why{
-    margin-top: 900px;
+    margin-top: 200px;
 }
 
 .why h1{
@@ -230,16 +230,13 @@ a, a:active, a:focus{
 }
 
 footer{
-    margin-top: 150px;
-    display: block;
     text-align: center;
     height: 40px;
     width: 100%;
+    display: block;
+    margin-top: 700px;
 } 
 
-footer p{
-    display: inline;
-}
 
 .changelogcointainer{
     width: 50%;
@@ -410,6 +407,10 @@ footer p{
         transform: translateY(-50%);
     }
     .why{
-        margin-top: 1000px;
+        margin-top: 200px;
+    }
+
+    footer{
+        margin-top: 950px;
     }
 }
