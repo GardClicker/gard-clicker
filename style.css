@@ -63,7 +63,7 @@ a, a:active, a:focus{
     margin-top: -360px;
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
-    transition: transform .4s;
+    transition: .3s;
 }
 
 .content{
@@ -199,6 +199,11 @@ a, a:active, a:focus{
     transition: 0.3s;
 }
 
+.box:hover{
+    transition: 0.3s;
+    box-shadow: rgb(52, 52, 255, 1.7) 0 0 2px 2px;
+}
+  
 
 .fa-dollar-sign, .fa-arrow-pointer, .fa-comment-dots, .fa-server{
     margin-top: -120px;
