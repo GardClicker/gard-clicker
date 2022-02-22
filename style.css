@@ -373,10 +373,10 @@ footer{
         filter: drop-shadow(0px 0px 0px transparent);
     }
     .content h1{
-        width: auto;
+        width: 452px;
     }
     .content p{
-        width: auto;
+        width: 603px;
     }
 }
 
