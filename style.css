@@ -64,6 +64,20 @@ a, a:active, a:focus{
     transform: scalex(0.9) scaley(0.9) perspective(500px) rotateY(-10deg);
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
     transition: .3s;
+    z-index: 999;
+}
+
+.gui:hover{
+    transition: 0.3s;
+    box-shadow: rgb(52, 52, 255, 0.7) 0 0 3px 3px;
+    
+}
+
+.content h1{
+    width: 452px;
+}
+.content p{
+    width: 603px;
 }
 
 .content{
@@ -358,6 +372,12 @@ footer{
         transform: scalex(0.5) scaley(0.5) perspective(500px) rotateY(-10deg);
         filter: drop-shadow(0px 0px 0px transparent);
     }
+    .content h1{
+        width: auto;
+    }
+    .content p{
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 571px) and (max-width: 1184px){
@@ -374,6 +394,12 @@ footer{
     .changelogcointainer{
         width: 80%;
     }
+    .content h1{
+        width: auto;
+    }
+    .content p{
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 596px){
@@ -385,6 +411,12 @@ footer{
     }
     .box{
         width: 80%;
+    }
+    .content h1{
+        width: auto;
+    }
+    .content p{
+        width: auto;
     }
 }
 
