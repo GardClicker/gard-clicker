@@ -38,6 +38,17 @@ a, a:active, a:focus{
   z-index: -999
 }
 
+::-webkit-scrollbar-thumb {
+    background: #3434FF;
+    border: 0px solid #3434FF;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background: transparent;
+}
+
 .navbar{
     width: 80%;
     height: 6%;
