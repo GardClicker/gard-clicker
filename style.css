@@ -222,6 +222,7 @@ a, a:active, a:focus{
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
     margin-top: 40px;
     transition: 0.3s;
+    border-bottom: 5px solid rgb(27, 40, 255);
 }
 
 .box:hover{
